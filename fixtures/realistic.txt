@@ -1,0 +1,3 @@
+Added: API docs. Removed: stale logs. Risk: larger context. Verification: reviewed token count and tests.
+
+Operational note: run this in CI with --markdown and --sarif.

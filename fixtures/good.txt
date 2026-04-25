@@ -1,0 +1,1 @@
+Added: API docs. Removed: stale logs. Risk: larger context. Verification: reviewed token count and tests.

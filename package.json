@@ -1,0 +1,40 @@
+{
+  "name": "agent-context-diff",
+  "version": "0.1.0",
+  "description": "Check agent context diff notes for additions, removals, risks, verification, and scope.",
+  "type": "module",
+  "bin": {
+    "agent-context-diff": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "node src/cli.js --path fixtures/good.txt --min-score 75"
+  },
+  "files": [
+    "src",
+    "fixtures",
+    "docs",
+    "examples",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md"
+  ],
+  "keywords": [
+    "context",
+    "diff",
+    "ai-agent",
+    "developer-tools"
+  ],
+  "author": "Aolingge",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aolingge/agent-context-diff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aolingge/agent-context-diff/issues"
+  },
+  "homepage": "https://github.com/aolingge/agent-context-diff"
+}
